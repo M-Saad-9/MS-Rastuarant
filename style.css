@@ -1,0 +1,303 @@
+/* body{
+  background-color: #f9c4a4 !important;
+} */
+.navbar1 {
+    width: 100%
+  }
+  .navbar1{
+    height: 60px;
+    padding: 0px 80px 0px 80px !important;
+  }
+.header1 {
+position: sticky;
+background-color: #212529;
+}
+.header1 {
+top: 0px 
+}
+.navbar1 {
+box-sizing: border-box
+}
+#logo {
+display: inline-block 
+}
+#logo {
+width: 100%
+}
+.logo h1{
+  font-size: 2rem;
+}
+.logo img {
+  background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar1 {
+padding: 0px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.logo {
+color: white;
+font-size: 1.1rem
+}
+
+.nav-list {
+list-style: none;
+display: flex;
+margin-bottom: 0px;
+}
+.nav-list #login{
+  color: #ffbf5b;
+}
+
+.nav-list li {
+margin-right: 20px;
+}
+
+.nav-list a {
+text-decoration: none;
+color: white;
+}
+
+.burger-menu {
+display: none;
+font-size: 1.5rem;
+color: white;
+cursor: pointer;
+}
+.burger-menu{
+padding-right: 20px 
+}
+
+@media only screen and (max-width: 768px) {
+.nav-list {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  width: 40%;
+}
+.nav-list{
+  border: 1px solid
+}
+.nav-list{
+padding-right: 35px;
+background-color: black;
+}
+.nav-list.show {
+  display: flex;
+}
+
+.nav-list li {
+  margin: 0;
+  text-align: center;
+  padding: 10px;
+}
+
+.burger-menu {
+  display: block;
+}
+.navbar1{
+  padding: 20px !important;
+}
+}
+#ms{
+  color: #ff9d04;
+}
+.bg-image{
+    /* background-image: url(./image/hero-bg\ -\ Copy.jpg); */
+    background-color: #212529;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 30px 80px 0px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text h3{
+  color: #ff9d04;;
+  font-size: 25px;
+  font-weight: 500;
+}
+.text h1{
+  color: white;
+    font-size: 50px;
+}
+.btn h2{
+  background-color: #ff9d04;
+    display: inline-block;
+    padding: 20px;
+}
+.btn h2:hover{
+  color: rgb(255, 0, 0);
+}
+.image{
+  width: 550px;
+  height: 500px;
+}
+.image img{
+  width: 100%;
+  height: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .image{
+    display: none;
+  }
+  .bg-image{
+    padding: 15px;
+    justify-content: center;
+  }
+  .text{
+    text-align: center;
+  }
+  .contant{
+    padding: 10px !important;
+  }
+  .row1{
+    flex-wrap: wrap;
+  }
+  .btn a{
+    padding: 5px;
+    font-size: 8px;
+    border-radius: 0%;
+    background-color: white;
+  }
+  .footer{
+    flex-wrap: wrap;
+  }
+}
+.cantainer{
+  margin: 30px;
+}
+.contant{
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px 0px 80px;
+}
+.btn a{
+  text-decoration: none;
+    color: black;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+.card-row{
+  display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card1{
+  width: 150px;
+   border: 1px solid;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+}
+.card-img1 img{
+  width: 40px;
+}
+.card-text1 h4 {
+  font-size: 12px;
+}
+
+.parent-contaner{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.leftside{
+  width: 40%;
+  padding: 10px;
+}
+.rightside{
+  width: 40%;
+  padding: 5px;
+}
+.top{
+  padding: 5px;
+}
+.bottom{
+  display: flex;
+}
+.bot1{
+  width: 50%;
+  padding: 6px;
+
+}
+.bot2{
+  width: 50%;
+  padding: 6px;
+}
+
+.row-cantainer{
+  margin: 50px;
+}
+.row-cantainer h5{
+  text-align: center;
+  color: #ff9d04;
+}
+.row-cantainer h1{
+  text-align: center;
+  padding: 15px;
+}
+.card2{
+  width: 250px;
+}
+.card-img2 img{
+  width: 100%;
+}
+.row1{
+  display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+#carouselExampleInterval{
+  z-index: -1;
+}
+.footer{
+  /* background-color: black; */
+  color: white;
+  display: flex;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  /* background-image: url(./image/footer-bg.jpg); */
+  background-color: #212529;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foot-img{
+  display: inline-block;
+  width: 200px;
+}
+.contact-footer, .openhour, .support{
+  margin: 10px;
+  margin-top: 50px;
+  font-size: x-small;
+}
+.contact-footer h2{
+  font-size: medium;
+  color: #ff9d04;
+}
+.openhour h2{
+  font-size: medium;
+ color: #ff9d04;
+}
+
+.support h2{
+  font-size: medium;
+  color: #ff9d04;
+}
+#para{
+  text-align: center;
+    background-color: #212529;
+    color: white;
+    margin-bottom: 0rem !important;
+}

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login Form</title>
+  <!-- <link rel="stylesheet" href="../bootstrap.js"> -->
+  <style>
+
+.navbar1 {
+    width: 100%
+  }
+  .navbar1{
+    height: 60px;
+    padding: 0px 80px 0px 80px !important;
+  }
+.header1 {
+position: sticky;
+background-color: #212529;
+}
+.header1 {
+top: 0px 
+}
+.navbar1 {
+box-sizing: border-box
+}
+#logo {
+display: inline-block 
+}
+#logo {
+width: 100%
+}
+.logo h1{
+  font-size: 2rem;
+}
+.logo img {
+  background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar1 {
+padding: 0px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.logo {
+color: white;
+font-size: 1.1rem
+}
+
+.nav-list {
+list-style: none;
+display: flex;
+margin-bottom: 10px;
+}
+.nav-list #login{
+  color: #ffbf5b;
+}
+
+.nav-list li {
+margin-right: 20px;
+}
+
+.nav-list a {
+text-decoration: none;
+color: white;
+}
+
+.burger-menu {
+display: none;
+font-size: 1.5rem;
+color: white;
+cursor: pointer;
+}
+.burger-menu{
+padding-right: 20px 
+}
+
+@media only screen and (max-width: 768px) {
+.nav-list {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  width: 40%;
+}
+.nav-list{
+  border: 1px solid
+}
+.nav-list{
+padding-right: 35px;
+background-color: black;
+}
+.nav-list.show {
+  display: flex;
+}
+
+.nav-list li {
+  margin: 0;
+  text-align: center;
+  padding: 10px;
+}
+
+.burger-menu {
+  display: block;
+}
+.navbar1{
+  padding: 20px !important;
+}
+}
+#ms{
+  color: #ff9d04;
+}
+    .login-form {
+width: 300px;
+margin: 30px auto;
+padding: 20px;
+/* border: 1px solid #ccc; */
+border-radius: 10px;
+box-shadow: #212529 0px 5px 30px 7px;
+background-color: #212529;
+
+}
+
+.login-form h2 {
+margin-top: 0;
+}
+
+.login-form label {
+display: block;
+margin-bottom: 10px;
+color: white;
+}
+
+.login-form input[type="text"], input[type="password"] {
+width: 90%;
+padding: 10px;
+margin-bottom: 20px;
+border: 1px solid #ccc;
+}
+
+.login-form input[type="submit"] {
+width: 100%;
+padding: 10px;
+background-color: #ff9d04;
+color: #fff;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+}
+
+.login-form input[type="submit"]:hover {
+background-color: #995e00;
+}
+
+.login-form p {
+text-align: center;
+margin-bottom: 20px;
+color: white;
+}
+
+.login-form a {
+text-decoration: none;
+color: #ff9d04;
+}
+.login-form h1{
+  text-align: center;
+  color: #ff9d04;
+}
+.login-form a:hover{
+  color: #995e00;
+}
+@media only screen and (max-width: 768px){
+  .login-form{
+    padding: 30px;
+  }
+  .footer{
+    flex-wrap: wrap;
+  }
+}
+.footer{
+  /* background-color: black; */
+  color: white;
+  display: flex;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  /* background-image: url(./image/footer-bg.jpg); */
+  background-color: #212529;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foot-img{
+  display: inline-block;
+  width: 200px;
+}
+.contact-footer, .openhour, .support{
+  margin: 10px;
+  margin-top: 50px;
+  font-size: x-small;
+}
+.contact-footer h2{
+  font-size: medium;
+  color: #ff9d04;
+}
+.openhour h2{
+  font-size: medium;
+ color: #ff9d04;
+}
+
+.support h2{
+  font-size: medium;
+  color: #ff9d04;
+}
+#para{
+  text-align: center;
+    background-color: #212529;
+    color: white;
+    margin-bottom: 0rem !important;
+    margin-top: 0px;
+}
+  </style>
+    
+  </style>
+</head>
+<body>
+  <div class="header1">
+    <nav class="navbar1">
+      <div class="logo">
+        <!-- <img src="logo.png" alt=""> -->
+        <h1><span id="ms">MS</span> Restaurant</h1>
+      </div>
+      <ul class="nav-list">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../manu/manu.html">Manu</a></li>
+        <li><a href="#" style="color: #ff9d04;">Contact</a></li>
+        <!-- <li><a href="./My-food-foam/login.html" id="login">Login</a></li> -->
+      </ul>
+      <div class="burger-menu">&#9776;</div>
+    </nav>
+  </div>
+
+<div class="login-form">
+  <h1>LOGIN</h1>
+  <form action="https://formsubmit.co/saadrahim900@gmail.com" method="POST">
+    <label for="username">Email:</label>
+    <input type="text" id="username" name="username" required>
+    <br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    <br>
+    <input type="submit" value="Login">
+  </form>
+  <p>Don't have an account? <a href="SignUp.html">Sign up</a></p>
+</div>
+
+<!-- footer section -->
+<div class="footer">
+  <div class="foot-img">
+    <img src="../image/logo.png" alt="" style="width: 100%;">
+  </div>
+  <div class="contact-footer">
+    <h2>Contact</h2>
+    <ul>
+      <li>Phone: <br> +92 000-0000-0000</li>
+      <li>Email: <br> msresturant444@gmail.com</li>
+      <li>Address: <br> karachi, sindh, pakistan</li>
+    </ul>
+  </div>
+  <div class="openhour">
+    <h2>Opening Hours</h2>
+    <ul>
+      <li>Monday-thursday : <br> 12PM-1AM</li>
+      <li>Friday : <br> 4PM - Till Mid Night</li>
+      <li>Saturday-Sunday : <br> 12PM - Till Mid Night</li>
+    </ul>
+  </div>
+  <div class="support">
+    <h2>Support</h2>
+    <ul>
+      <li>Privacy Policy</li>
+      <li>Trems of Use</li>
+      <li>Legal Information</li>
+      <li>Payment Methods</li>
+      <li>Customer Support</li>
+      <li>FAQ.</li>
+      <li>Blog.</li>
+    </ul>
+
+  </div>
+</div>
+<div>
+  <p id="para">Develop By || <span id="ms">Saad Rahim</span></p>
+</div>
+
+
+<script> document.addEventListener('DOMContentLoaded', function () {
+  const burgerMenu = document.querySelector('.burger-menu');
+  const navList = document.querySelector('.nav-list');
+
+  burgerMenu.addEventListener('click', function () {
+    navList.classList.toggle('show');
+   });
+ });</script>
+
+</body>
+
+</html>
