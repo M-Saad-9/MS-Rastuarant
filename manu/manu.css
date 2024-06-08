@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
   /* background-color: #f9c4a4; */
   margin: 0;
@@ -212,4 +213,220 @@ padding: 20px !important;
       color: white;
       margin-bottom: 0rem !important;
       margin-top: 0px;
+=======
+body{
+  /* background-color: #f9c4a4; */
+  margin: 0;
+}
+.navbar1 {
+  width: 100%
+}
+.navbar1{
+  height: 60px;
+  padding: 0px 80px 0px 80px !important;
+}
+.header1 {
+position: sticky;
+background-color: #212529;
+}
+.header1 {
+top: 0px 
+}
+.navbar1 {
+box-sizing: border-box
+}
+#logo {
+display: inline-block 
+}
+#logo {
+width: 100%
+}
+.logo h1{
+font-size: 2rem;
+}
+.logo img {
+background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar1 {
+padding: 0px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.logo {
+color: white;
+font-size: 1.1rem
+}
+
+.nav-list {
+list-style: none;
+display: flex;
+margin-bottom: 12px;
+}
+.nav-list #login{
+color: #ffbf5b;
+}
+
+.nav-list li {
+margin-right: 20px;
+}
+
+.nav-list a {
+text-decoration: none;
+color: white;
+}
+
+.burger-menu {
+display: none;
+font-size: 1.5rem;
+color: white;
+cursor: pointer;
+}
+.burger-menu{
+padding-right: 20px 
+}
+
+@media only screen and (max-width: 768px) {
+.nav-list {
+display: none;
+flex-direction: column;
+position: absolute;
+top: 60px;
+right: 0;
+width: auto;
+}
+.nav-list{
+border: 1px solid
+}
+.nav-list{
+padding-right: 35px;
+background-color: black;
+}
+.nav-list.show {
+display: flex;
+}
+
+.nav-list li {
+margin: 0;
+text-align: center;
+padding: 10px;
+}
+
+.burger-menu {
+display: block;
+}
+.navbar1{
+padding: 20px !important;
+}
+}
+#ms{
+  color: #ff9d04;
+}
+.text{
+  background-color: #212529;
+  margin-top: -20px;
+    text-align: center;
+    padding: 25px;
+}
+.row-cantainer{
+    margin: 50px;
+  }
+  .row-cantainer h2{
+    text-align: center;
+  }
+  .row-cantainer h1{
+    text-align: center;
+    padding: 15px;
+  }
+  .card1,.card2,.card3{
+    width: 250px;
+    /* border: 2px solid black; */
+    background-color: #212529;
+    color: #ff9d04;
+    padding: 5px;
+  }
+  .card-img2 img{
+    width: 100%;
+    height: 30vh;
+  }
+  .card-text2 h2{
+    padding: 0px 10px;
+    color: white;
+  }
+  .card-text2 p{
+    padding: 0px 10px;
+    color: #ff9d04;
+  }
+
+  .row1{
+    display: flex;
+      justify-content: center;
+      gap: 10px;
+  }
+  .order{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .price h3{
+    color: white;
+  }
+
+  .card-btn{
+    padding: 15px;
+  }
+  .card-btn input{
+    background-color: #ff9d04;
+    color: #212529;
+    padding: 5px;
+  }
+  @media only screen and (max-width:768px){
+    .row1{
+      flex-wrap: wrap;
+    }
+    .footer{
+      flex-wrap: wrap;
+    }
+  }
+  .footer{
+    /* background-color: black; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    /* background-image: url(./image/footer-bg.jpg); */
+    background-color: #212529;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .foot-img{
+    display: inline-block;
+    width: 200px;
+  }
+  .contact-footer, .openhour, .support{
+    margin: 10px;
+    margin-top: 50px;
+    font-size: x-small;
+  }
+  .contact-footer h2{
+    font-size: medium;
+    color: #ff9d04;
+  }
+  .openhour h2{
+    font-size: medium;
+    color: #ff9d04;
+  }
+  .support h2{
+    font-size: medium;
+    color: #ff9d04;
+  }
+  #para{
+    text-align: center;
+      background-color: #212529;
+      color: white;
+      margin-bottom: 0rem !important;
+      margin-top: 0px;
+>>>>>>> 6730dd2 (build restaurant website)
   }
